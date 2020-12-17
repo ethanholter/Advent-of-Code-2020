@@ -1,4 +1,4 @@
-#Day 1 Part 2
+#Day 1 Part 1
 
 # Each line gives the password policy and then the password. 
 # The password policy indicates the lowest and highest number 

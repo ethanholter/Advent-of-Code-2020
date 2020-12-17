@@ -1,4 +1,4 @@
-#Day 1 part 2
+#Day 1 part 1
 #Find the two entries that sum to 2020; what do you get if you multiply them together?
 
 input = open(r"Day 1\input.txt", "r").read().split("\n")
