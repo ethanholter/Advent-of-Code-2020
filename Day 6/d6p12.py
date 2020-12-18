@@ -1,4 +1,4 @@
-#Day 6 Part 1
+#Day 6 Part 2
 
 # For each group, count the number of questions to which EVERYONE answered "yes". What is the sum of those counts?
 
