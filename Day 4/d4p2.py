@@ -32,7 +32,7 @@ def numBetween(min, max, input):
     input = int(input)
     return input >= min and input <= max
 
-def containsFields(str, arr):
+def containsAllFields(str, arr):
     for item in arr:
         if not str.__contains__(item): return False
     return True
@@ -71,7 +71,7 @@ def fitsFieldCriteria(field, str):
 def solve(input, fields):
     correctPassports = 0
     for passport in input:
-        if containsFields(passport, fields) and passportCorrect(passport):
+        if containsAllFields(passport, fields) and passportCorrect(passport):
             correctPassports += 1
     return correctPassports
 
